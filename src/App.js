@@ -1,3 +1,7 @@
+const appId = "demo_app_id";
+const firebaseConfig = {};
+const initialAuthToken = "demo_token";
+
 import React, { useState, useEffect, useRef } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
