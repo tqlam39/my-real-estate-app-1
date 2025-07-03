@@ -5,9 +5,9 @@ import { getFirestore, collection, addDoc, getDocs, onSnapshot, doc, deleteDoc, 
 
 // Global variables provided by the Canvas environment.
 // These are directly available in the browser environment where the app runs.
-const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
-const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
-const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+//const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+//const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
+//const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
 
 
 // Main App Component
